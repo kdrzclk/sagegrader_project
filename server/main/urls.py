@@ -44,9 +44,9 @@ urlpatterns = [
     # Url path for debug toolbar
     path('__debug__/', include('debug_toolbar.urls')),
 
-    path("api/auth", include('users.urls')),
+    path("api/auth/", include('users.urls')),
 
-    path("api/app", include('sagegrader.urls')),
+    path("api/app/", include('sagegrader.urls')),
 
 
 ]

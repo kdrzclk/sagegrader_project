@@ -198,3 +198,5 @@ LOGGING = {
         },
     },
 }
+
+AUTH_USER_MODEL = 'sagegrader.User'
